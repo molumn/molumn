@@ -30,8 +30,8 @@ root.render(
       <BrowserRouter>
           <Routes>
               <Route index element={<Main />} />
-              <Route path={"/"} element={<Main />} />
-              <Route path={"/*"} element={<NotFound404 />}/>
+              <Route path={"molumn/"} element={<Main />} />
+              <Route path={"molumn/*"} element={<NotFound404 />}/>
           </Routes>
       </BrowserRouter>
   </React.StrictMode>
