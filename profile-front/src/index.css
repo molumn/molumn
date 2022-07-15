@@ -1,0 +1,72 @@
+
+/* default theme : light */
+
+@media (prefers-color-scheme: dark) {
+    body {
+        margin: 0;
+    }
+
+    :root {
+
+        --background-basic-color: rgba(0, 0, 0, 1);
+        --background-hover-color: rgba(0, 0, 0, 1);
+        --background-focus-color: rgba(0, 0, 0, 1);
+
+        --background-box-basic-color: rgba(0, 0, 0, 1);
+        --background-box-hover-color: rgba(0, 0, 0, 1);
+        --background-box-focus-color: rgba(0, 0, 0, 1);
+
+        --text-basic-color: rgba(0, 0, 0, 1);
+        --text-hover-color: rgba(0, 0, 0, 1);
+        --text-focus-color: rgba(0, 0, 0, 1);
+        --text-stress-basic-color: rgba(0, 0, 0, 1);
+        --text-stress-hover-color: rgba(0, 0, 0, 1);
+        --text-stress-focus-color: rgba(0, 0, 0, 1);
+
+        --text-title-basic-color: rgba(0, 0, 0, 1);
+        --text-title-hover-color: rgba(0, 0, 0, 1);
+        --text-title-focus-color: rgba(0, 0, 0, 1);
+
+    }
+
+    a {
+        text-underline: none;
+    }
+}
+
+
+
+
+
+@media (prefers-color-scheme: light) {
+    body {
+        margin: 0;
+    }
+
+    :root {
+
+        --background-basic-color: rgba(255, 255, 255, 1);
+        --background-hover-color: rgba(255, 255, 255, 1);
+        --background-focus-color: rgba(255, 255, 255, 1);
+
+        --background-box-basic-color: rgba(255, 255, 255, 1);
+        --background-box-hover-color: rgba(255, 255, 255, 1);
+        --background-box-focus-color: rgba(255, 255, 255, 1);
+
+        --text-basic-color: rgba(255, 255, 255, 1);
+        --text-hover-color: rgba(255, 255, 255, 1);
+        --text-focus-color: rgba(255, 255, 255, 1);
+        --text-stress-basic-color: rgba(255, 255, 255, 1);
+        --text-stress-hover-color: rgba(255, 255, 255, 1);
+        --text-stress-focus-color: rgba(255, 255, 255, 1);
+
+        --text-title-basic-color: rgba(255, 255, 255, 1);
+        --text-title-hover-color: rgba(255, 255, 255, 1);
+        --text-title-focus-color: rgba(255, 255, 255, 1);
+
+    }
+
+    a {
+        text-underline: none;
+    }
+}
