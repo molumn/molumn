@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/molumn/static/css/main.f1044e24.css",
-    "main.js": "/molumn/static/js/main.1627a0a3.js",
+    "main.js": "/molumn/static/js/main.ac8782b2.js",
     "index.html": "/molumn/index.html",
     "main.f1044e24.css.map": "/molumn/static/css/main.f1044e24.css.map",
-    "main.1627a0a3.js.map": "/molumn/static/js/main.1627a0a3.js.map"
+    "main.ac8782b2.js.map": "/molumn/static/js/main.ac8782b2.js.map"
   },
   "entrypoints": [
     "static/css/main.f1044e24.css",
-    "static/js/main.1627a0a3.js"
+    "static/js/main.ac8782b2.js"
   ]
 }
