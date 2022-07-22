@@ -5,7 +5,9 @@ const VERSION = "1"
 const CACHE_NAME = "worker_cache-v" + VERSION
 const SUB_FILES = [
     "offline.css",
-    "offline.html"
+    "offline.html",
+    "index.html",
+    "serviceWorker.js"
 ]
 
 
@@ -42,7 +44,7 @@ self.addEventListener('fetch', (event) => {
                     console.log("Fetch failed; returning offline page instead.", error);
 
                     const cache = await caches.open(CACHE_NAME);
-                    return await cache.match(SUB_FILES);
+                    return await cache.match('offline.html');
                 }
             })()
         );

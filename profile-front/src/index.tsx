@@ -26,7 +26,6 @@ preset.render(
 const root = ReactDOM.createRoot(document.getElementById('root')!!);
 
 
-// github pages only display one page issue todo
 root.render(
   <React.StrictMode>
       <HashRouter>

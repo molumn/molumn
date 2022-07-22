@@ -16,7 +16,14 @@
 
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
 
-    <script src="./scripts/workerPreset.js"></script>
+    <script>
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('%PUBLIC_URL%/serviceWorker.js')
+                .then((reg) => {
+                  console.log('service worker had installed', reg);
+                })
+      }
+    </script>
 
   </head>
   <body>
