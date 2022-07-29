@@ -1,0 +1,13 @@
+
+.MN__FIXED_UNDERLINE {
+
+    position: fixed;
+    bottom: 0;
+
+    height: 8%;
+    width: 100%;
+
+    display: flex;
+    vertical-align: middle;
+
+}

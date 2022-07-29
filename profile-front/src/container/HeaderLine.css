@@ -1,0 +1,56 @@
+
+.MN_HEADER_LINE_AREA {
+    position: fixed;
+
+    margin: 0;
+
+    background-color: var(--background-holder-basic-color);
+
+    border-top: 4px white;
+
+    height: inherit;
+    width: 100%;
+
+    display: flex;
+    vertical-align: middle;
+
+}
+.MN_HEADER_LINE_AREA_BACK {
+    margin: 0;
+
+    background-color: var(--background-holder-basic-color);
+
+    border-top: 4px white;
+
+    height: inherit;
+    width: 100%;
+
+    display: flex;
+    vertical-align: middle;
+}
+
+
+.MN_HEADER_NAME_AREA {
+
+    margin: auto 5%;
+
+    background-color: inherit;
+
+    width: fit-content;
+    height: inherit;
+
+}
+
+.MN_HEADER_CHILDREN_AREA {
+
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+
+    display: flex;
+    flex: content;
+    justify-content: flex-end;
+
+    height: inherit;
+
+}

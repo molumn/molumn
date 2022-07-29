@@ -1,0 +1,16 @@
+
+.MN_TEXT_HEADER_MAIN {
+
+    margin: 10px;
+
+    color: var(--text-title-basic-color);
+
+    font-weight: 700;
+    font-size: x-large;
+}
+
+.MN_TEXT_HEADER_MAIN:hover {
+
+
+}
+

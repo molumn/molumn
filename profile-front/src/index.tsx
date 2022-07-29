@@ -1,3 +1,4 @@
+
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import {HashRouter, Route, Routes} from "react-router-dom";
@@ -9,6 +10,8 @@ import "./index.css";
 import NotFound404 from "./pages/error/NotFound404";
 import Main from "./pages/Main";
 
+
+import "./index.css";
 
 
 /* index.html id = preset */

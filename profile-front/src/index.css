@@ -1,72 +1,73 @@
 
-/* default theme : light */
+body {
+    margin: 0;
 
-@media (prefers-color-scheme: dark) {
-    body {
-        margin: 0;
-    }
+    background-color: var(--background-basic-color);
 
-    :root {
-
-        --background-basic-color: rgba(0, 0, 0, 1);
-        --background-hover-color: rgba(0, 0, 0, 1);
-        --background-focus-color: rgba(0, 0, 0, 1);
-
-        --background-box-basic-color: rgba(0, 0, 0, 1);
-        --background-box-hover-color: rgba(0, 0, 0, 1);
-        --background-box-focus-color: rgba(0, 0, 0, 1);
-
-        --text-basic-color: rgba(0, 0, 0, 1);
-        --text-hover-color: rgba(0, 0, 0, 1);
-        --text-focus-color: rgba(0, 0, 0, 1);
-        --text-stress-basic-color: rgba(0, 0, 0, 1);
-        --text-stress-hover-color: rgba(0, 0, 0, 1);
-        --text-stress-focus-color: rgba(0, 0, 0, 1);
-
-        --text-title-basic-color: rgba(0, 0, 0, 1);
-        --text-title-hover-color: rgba(0, 0, 0, 1);
-        --text-title-focus-color: rgba(0, 0, 0, 1);
-
-    }
-
-    a {
-        text-underline: none;
-    }
 }
 
+:root {
 
+    /* color theme */
 
+    --main-theme-color: rgb(7, 25, 86);
 
+    --generic-gradient-family-purple:       rgb(111, 37, 105);
+    --generic-gradient-family-red:          rgb(185, 63, 103);
+    --generic-gradient-family-orange:       rgb(235, 114, 91);
+    --generic-gradient-family-yellow:       rgb(255, 179, 84);
+    --generic-gradient-family-light-yellow: rgb(249, 248, 113);
 
-@media (prefers-color-scheme: light) {
-    body {
-        margin: 0;
-    }
+    --matching-gradient-family-1: rgb(0, 65, 132);
+    --matching-gradient-family-2: rgb(0, 105, 166);
+    --matching-gradient-family-3: rgb(0, 146, 185);
+    --matching-gradient-family-4: rgb(0, 186, 188);
+    --matching-gradient-family-5: rgb(0, 225, 180);
 
-    :root {
+    --grey-family-dark:     rgb(71, 69, 84);
+    --grey-family-dust:     rgb(120, 117, 134);
+    --grey-family-focus:    rgb(146, 143, 160);
+    --grey-family-light:    rgb(172, 169, 187);
 
-        --background-basic-color: rgba(255, 255, 255, 1);
-        --background-hover-color: rgba(255, 255, 255, 1);
-        --background-focus-color: rgba(255, 255, 255, 1);
+    --dotting-family-dark:  rgb(79, 0, 0);
+    --dotting-family-light: rgb(191, 165, 163);
 
-        --background-box-basic-color: rgba(255, 255, 255, 1);
-        --background-box-hover-color: rgba(255, 255, 255, 1);
-        --background-box-focus-color: rgba(255, 255, 255, 1);
+    --highlighting-family-similar:      rgb(130, 131, 255);
+    --highlighting-family-light:        rgb(255, 250, 222);
+    --highlighting-family-light-middle: rgb(232, 213, 181);
 
-        --text-basic-color: rgba(255, 255, 255, 1);
-        --text-hover-color: rgba(255, 255, 255, 1);
-        --text-focus-color: rgba(255, 255, 255, 1);
-        --text-stress-basic-color: rgba(255, 255, 255, 1);
-        --text-stress-hover-color: rgba(255, 255, 255, 1);
-        --text-stress-focus-color: rgba(255, 255, 255, 1);
+    --shades-family-0: rgb(61, 62, 130);
+    --shades-family-1: rgb(107, 104, 177);
+    --shades-family-2: rgb(155, 149, 226);
+    --shades-family-3: rgb(204, 196, 255);
 
-        --text-title-basic-color: rgba(255, 255, 255, 1);
-        --text-title-hover-color: rgba(255, 255, 255, 1);
-        --text-title-focus-color: rgba(255, 255, 255, 1);
+    /**/
 
-    }
+    --background-basic-color: var(--grey-family-dust);
+    --background-hover-color: var(--grey-family-light);
+    --background-focus-color: var(--grey-family-focus);
 
-    a {
-        text-underline: none;
-    }
+    --background-box-basic-color: var(--grey-family-dark);
+    --background-box-hover-color: var(--grey-family-dust);
+    --background-box-focus-color: var(--grey-family-dust);
+
+    --background-holder-basic-color: rgb(230, 230, 240);
+    --background-holder-hover-color: white;
+    --background-holder-focus-color: white;
+
+    --text-basic-color: rgba(200, 200, 200, 1);
+    --text-hover-color: rgba(255, 255, 255, 1);
+    --text-focus-color: rgba(160, 160, 160, 1);
+    --text-stress-basic-color: rgb(253, 247, 255);
+    --text-stress-hover-color: rgb(253, 247, 255);
+    --text-stress-focus-color: rgb(253, 247, 255);
+
+    --text-title-basic-color: var(--matching-gradient-family-4);
+    --text-title-hover-color: var(--matching-gradient-family-5);
+    --text-title-focus-color: var(--matching-gradient-family-3);
+
+}
+
+a {
+    text-underline: none;
 }
